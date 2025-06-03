@@ -10,12 +10,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 391419181322345120, guid: 9ae849afa566c0e4e8e7242ec4260750, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"OvverideDirection","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"OvverideDirection","value":{"$content":-1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 506836385159060602, guid: 9ae849afa566c0e4e8e7242ec4260750, type: 3}
       propertyPath: m_Name
-      value: Enemy 0 Variant
+      value: Enemy 0 Variant 1
       objectReference: {fileID: 0}
     - target: {fileID: 3129671937666080180, guid: 9ae849afa566c0e4e8e7242ec4260750, type: 3}
       propertyPath: m_LocalPosition.x
@@ -57,10 +57,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5427982954969108638, guid: 9ae849afa566c0e4e8e7242ec4260750, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 12cfc8b2360c2fc4499d4f6f6607671a, type: 2}
     - target: {fileID: 7996921360381592050, guid: 9ae849afa566c0e4e8e7242ec4260750, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1782705385, guid: d33598d781682e049a53a0a13104ef29, type: 3}
+      objectReference: {fileID: 172626504, guid: c4d2ccab0c2ad7e47853b6e31a7ac7c2, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
